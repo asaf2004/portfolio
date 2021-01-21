@@ -1,0 +1,34 @@
+@media only screen and (max-width: 1440px) {
+body {
+  width: 100%;
+  height: 2000px;
+  margin: 0px;
+  background: #222831;
+}
+header{
+  width: 100%;
+  height: 100px;
+
+
+}
+
+#p1 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 40px;
+  color: #fff;
+  font-family: Impact, fantasy;
+}
+}
+@media only screen and (max-width: 900px) {
+  #p1 {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #p1 {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+}

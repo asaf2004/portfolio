@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1440px) {
+.py {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+}
+
+#py {
+  width: 20%;
+  position: absolute;
+  top: 20%;
+  left: 70%;
+}
+#html {
+  width: 20%;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+}
+#js {
+  width: 20%;
+  position: absolute;
+  top: 110%;
+  left: 70%;
+}
+#css {
+  width: 20%;
+  position: absolute;
+  top: 160%;
+  left: 45%;
+}
+}
+@media only screen and (max-width: 900px) {
+  .py {
+    display: none;
+
+  }
+}
