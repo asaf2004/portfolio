@@ -1,3 +1,4 @@
+@media screen and (max-width: 1400px) {
 * {
   margin: 0px;
   width: 100%;
@@ -25,26 +26,27 @@ header{
   color: #fff;
   font-family: Impact, fantasy;
 }
-@media screen and (min-width: 300px) {
-  body {
+}
+@media screen and (max-width: 900px) {
 
+  body {
     background: #000;
   }
   header{
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 130px;
     background-color: #393e46;
     margin: 0px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
     z-index: 1000;
   }
 
   #p1 {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 30px;
     font-size: 60px;
     color: #fff;
     font-family: Impact, fantasy;
