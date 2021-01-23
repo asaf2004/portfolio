@@ -1,11 +1,14 @@
-
+@media screen and (min-width: 1001px) {
 * {
-  margin: 0px;
-  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #fff;
 }
-body {
 
+body {
   background: #222831;
+  width: 100%;
+  height: 2550px;
 }
 header{
   position: fixed;
@@ -18,6 +21,14 @@ header{
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
   z-index: 1000;
 }
+.bb {
+  height: 100%;
+  margin-bottom: -50px;
+}
+i {
+  margin-top: 60px;
+  margin-left: 20px;
+}
 
 #p1 {
   text-align: center;
@@ -26,4 +37,268 @@ header{
   color: #fff;
   font-family: Impact, fantasy;
 }
+footer {
+  width: 100%;
+  position: fixed;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height:200px;
+  background:#393e46;
+  text-align: center;
 }
+}
+@media screen and (min-width: 860px) and (max-width: 1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+
+  body {
+    background: #222831;
+    width: 100%;
+    height: 2550px;
+  }
+  header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #393e46;
+    margin: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    z-index: 1000;
+  }
+  .bb {
+    height: 100%;
+    margin-bottom: -50px;
+  }
+  i {
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+
+  #p1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    color: #fff;
+    font-family: Impact, fantasy;
+  }
+  footer {
+    width: 100%;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    height:200px;
+    background:#393e46;
+    text-align: center;
+  }
+  }
+  @media screen and (min-width: 670px) and (max-width: 859px) {
+    * {
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    body {
+      background: #222831;
+      width: 100%;
+      height: 2550px;
+    }
+    header{
+      position: fixed;
+      width: 100%;
+      height: 70px;
+      background-color: #393e46;
+      margin: 0px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      z-index: 1000;
+    }
+    .bb {
+      height: 100%;
+      margin-bottom: -50px;
+    }
+    i {
+      margin-top: 60px;
+      margin-left: 20px;
+    }
+
+    #p1 {
+      text-align: center;
+      padding-top: 10px;
+      font-size: 40px;
+      color: #fff;
+      font-family: Impact, fantasy;
+    }
+    footer {
+      width: 100%;
+      position: absolute;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      height:200px;
+      background:#393e46;
+      text-align: center;
+    }
+    }
+  @media screen and (max-width: 669px) {
+    * {
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    body {
+      background: #222831;
+      width: 100%;
+      height: 100%;
+    }
+    header{
+      position: fixed;
+      width: 100%;
+      height: 70px;
+      background-color: #393e46;
+      margin: 0px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      z-index: 1000;
+    }
+    .bb {
+      height: 100%;
+      margin-bottom: -50px;
+    }
+    i {
+      margin-top: 60px;
+      margin-left: 20px;
+    }
+
+    #p1 {
+      text-align: center;
+      padding-top: 10px;
+      font-size: 40px;
+      color: #fff;
+      font-family: Impact, fantasy;
+    }
+    footer {
+      width: 100%;
+      position: absolute;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      height:200px;
+      background:#393e46;
+      text-align: center;
+    }
+    }
+
+
+
+    @media screen and (min-width: 400px) and (max-width: 480px) {
+      * {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+      }
+
+      body {
+        background: #222831;
+        width: 100%;
+        height: 100%;
+      }
+      header{
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        background-color: #393e46;
+        margin: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        z-index: 1000;
+      }
+      .bb {
+        height: 100%;
+        margin-bottom: -50px;
+      }
+      i {
+        margin-top: 60px;
+        margin-left: 20px;
+      }
+
+      #p1 {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 40px;
+        color: #fff;
+        font-family: Impact, fantasy;
+      }
+      footer {
+        width: 100%;
+        position: absolute;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        height:200px;
+        background:#393e46;
+        text-align: center;
+      }
+      }
+
+
+      @media screen and (min-width: 100px) and (max-width: 399px) {
+        * {
+          margin: 0;
+          padding: 0;
+          color: #fff;
+        }
+
+        body {
+          background: #222831;
+          width: 100%;
+          height: 100%;
+        }
+        header{
+          position: fixed;
+          width: 100%;
+          height: 70px;
+          background-color: #393e46;
+          margin: 0px;
+          border-bottom-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+          box-shadow: 0 0 15px rgba(0,0,0,0.5);
+          z-index: 1000;
+        }
+        .bb {
+          height: 100%;
+          margin-bottom: -50px;
+        }
+        i {
+          margin-top: 60px;
+          margin-left: 20px;
+        }
+
+        #p1 {
+          text-align: center;
+          padding-top: 10px;
+          font-size: 40px;
+          color: #fff;
+          font-family: Impact, fantasy;
+        }
+        footer {
+          width: 100%;
+          position: absolute;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+          box-shadow: 0 0 15px rgba(0,0,0,0.5);
+          height:200px;
+          background:#393e46;
+          text-align: center;
+        }
+        }

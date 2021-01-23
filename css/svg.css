@@ -1,3 +1,4 @@
+@media screen and (min-width: 1001px) {
 .py {
   display: flex;
   justify-content: center;
@@ -19,12 +20,263 @@
 #js {
   width: 20%;
   position: absolute;
-  top: 110%;
+  top: 100%;
   left: 70%;
 }
 #css {
   width: 20%;
   position: absolute;
-  top: 160%;
+  top: 140%;
   left: 45%;
 }
+#cpp {
+  width: 20%;
+  position: absolute;
+  top: 180%;
+  left: 70%;
+}
+#java {
+  width: 20%;
+  position: absolute;
+  top: 220%;
+  left: 45%;
+}
+#kotlin {
+  width: 20%;
+  position: absolute;
+  top: 260%;
+  left: 70%;
+}
+#csharp{
+  width: 20%;
+  position: absolute;
+  top: 300%;
+  left: 45%;
+}
+#swift{
+  width: 20%;
+  position: absolute;
+  top: 330%;
+  left: 70%;
+}
+}
+
+
+@media screen and (min-width: 860px) and (max-width: 1000px) {
+  .py {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+  }
+
+  #py {
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+  }
+  #html {
+    width: 30%;
+    position: absolute;
+    top: 65%;
+    left: 55%;
+  }
+  #js {
+    width: 30%;
+    position: absolute;
+    top: 120%;
+    left: 55%;
+  }
+  #css {
+    width: 30%;
+    position: absolute;
+    top: 160%;
+    left: 55%;
+  }
+  #cpp {
+    width: 30%;
+    position: absolute;
+    top: 215%;
+    left: 55%;
+  }
+  #java {
+    width: 30%;
+    position: absolute;
+    top: 255%;
+    left: 55%;
+  }
+  #kotlin {
+display: none;
+  }
+  #csharp{
+display: none;
+  }
+  #swift{
+    width: 30%;
+    position: absolute;
+    top: 310%;
+    left: 55%;
+  }
+  }
+
+  @media screen and (min-width: 670px) and (max-width: 859px) {
+    .py {
+      display: flex;
+      justify-content: center;
+      height: 800px;
+    }
+
+    #py {
+      width: 25%;
+      position: absolute;
+      top: 10%;
+      left: 65%;
+    }
+    #html {
+      width: 25%;
+      position: absolute;
+      top: 35%;
+      left: 65%;
+    }
+    #js {
+      width: 25%;
+      position: absolute;
+      top: 65%;
+      left: 65%;
+    }
+    #css {
+      width: 25%;
+      position: absolute;
+      top: 90%;
+      left: 65%;
+    }
+    #cpp {
+      width: 25%;
+      position: absolute;
+      top: 120%;
+      left: 65%;
+    }
+    #java {
+      width: 25%;
+      position: absolute;
+      top: 145%;
+      left: 65%;
+    }
+    #kotlin {
+      width: 25%;
+      position: absolute;
+      top: 175%;
+      left: 65%;
+    }
+    #csharp{
+      width: 25%;
+      position: absolute;
+      top: 195%;
+      left: 65%;
+    }
+    #swift{
+      width: 25%;
+      position: absolute;
+      top: 220%;
+      left: 65%;
+    }
+    }
+    @media screen and (max-width: 669px) {
+      .py {
+        display: flex;
+        justify-content: center;
+        height: 800px;
+      }
+
+      #py {
+        width: 20%;
+        position: absolute;
+        top: 10%;
+        left: 75%;
+      }
+      #html {
+        width: 20%;
+        position: absolute;
+        top: 30%;
+        left: 75%;
+      }
+      #js {
+        width: 20%;
+        position: absolute;
+        top: 55%;
+        left: 75%;
+      }
+      #css {
+        width: 20%;
+        position: absolute;
+        top: 75%;
+        left: 75%;
+      }
+      #cpp {
+        width: 20%;
+        position: absolute;
+        top: 100%;
+        left: 75%;
+      }
+      #java {
+        width: 20%;
+        position: absolute;
+        top: 120%;
+        left: 75%;
+      }
+      #kotlin {
+        width: 20%;
+        position: absolute;
+        top: 145%;
+        left: 75%;
+      }
+      #csharp{
+        width: 20%;
+        position: absolute;
+        top: 165%;
+        left: 75%;
+      }
+      #swift{
+        width: 20%;
+        position: absolute;
+        top: 185%;
+        left: 75%;
+      }
+      }
+
+
+      @media screen and (max-width: 480px) {
+        .py {
+          display: flex;
+          justify-content: center;
+          height: 800px;
+        }
+
+        #py {
+          display: none;
+        }
+        #html {
+          display: none;
+        }
+        #js {
+        display: none;
+        }
+        #css {
+        display: none;
+        }
+        #cpp {
+          display: none;
+        }
+        #java {
+          display: none;
+        }
+        #kotlin {
+          display: none;
+        }
+        #csharp{
+        display: none;
+        }
+        #swift{
+          display: none;
+        }
+        }
