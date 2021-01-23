@@ -601,7 +601,7 @@ svg.animate path {
           .a {
             position: absolute;
             cursor: pointer;
-            padding: 40px 100px;
+            padding: 35px 100px;
             text-transform: uppercase;
             vertical-align: middle;
             background: #00adb5;
