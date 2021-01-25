@@ -1,4 +1,4 @@
-@media screen and (min-width: 1001px) {
+@media screen and (min-width:1824px) {
 .py {
   display: flex;
   justify-content: center;
@@ -6,63 +6,63 @@
 }
 
 #py {
-  width: 20%;
+  width: 400px;
   position: absolute;
-  top: 20%;
-  left: 70%;
+  top: 150px;
+  left: 1300px;
 }
 #html {
-  width: 20%;
+  width: 400px;
   position: absolute;
-  top: 60%;
-  left: 45%;
+  top: 500px;
+  left: 850px;
 }
 #js {
-  width: 20%;
+  width: 400px;
   position: absolute;
-  top: 100%;
-  left: 70%;
+  top: 1000px;
+  left: 1300px;
 }
 #css {
-  width: 20%;
+  width: 400px;
   position: absolute;
-  top: 140%;
-  left: 45%;
+  top: 1400px;
+  left: 850px;
 }
 #cpp {
-  width: 20%;
+  width: 400px;
   position: absolute;
-  top: 180%;
-  left: 70%;
+  top: 1950px;
+  left: 1300px;
 }
 #java {
-  width: 20%;
+  width: 400px;
   position: absolute;
-  top: 220%;
-  left: 45%;
+  top: 2300px;
+  left: 850px;
 }
 #kotlin {
-  width: 20%;
+  width: 400px;
   position: absolute;
-  top: 260%;
-  left: 70%;
+  top: 2800px;
+  left: 1300px;
 }
 #csharp{
-  width: 20%;
+  width: 400px;
   position: absolute;
-  top: 300%;
-  left: 45%;
+  top: 3200px;
+  left: 850px;
 }
 #swift{
-  width: 20%;
+  width: 400px;
   position: absolute;
-  top: 330%;
-  left: 70%;
+  top: 3600px;
+  left: 1300px;
 }
 }
 
 
-@media screen and (min-width: 860px) and (max-width: 1000px) {
+@media only screen and (min-width : 1224px) and (max-width : 1823px){
   .py {
     display: flex;
     justify-content: center;
@@ -70,56 +70,62 @@
   }
 
   #py {
-    width: 30%;
+    width: 300px;
     position: absolute;
-    top: 20%;
-    left: 55%;
+    top: 150px;
+    left: 850px;
   }
   #html {
-    width: 30%;
+    width: 300px;
     position: absolute;
-    top: 65%;
-    left: 55%;
+    top: 450px;
+    left: 550px;
   }
   #js {
-    width: 30%;
+    width: 300px;
     position: absolute;
-    top: 120%;
-    left: 55%;
+    top: 850px;
+    left: 850px;
   }
   #css {
-    width: 30%;
+    width: 300px;
     position: absolute;
-    top: 160%;
-    left: 55%;
+    top: 1200px;
+    left: 550px;
   }
   #cpp {
-    width: 30%;
+    width: 300px;
     position: absolute;
-    top: 215%;
-    left: 55%;
+    top: 1600px;
+    left: 850px;
   }
   #java {
-    width: 30%;
+    width: 300px;
     position: absolute;
-    top: 255%;
-    left: 55%;
+    top: 1800px;
+    left: 550px;
   }
   #kotlin {
-display: none;
+    width: 300px;
+    position: absolute;
+    top: 2250px;
+    left: 850px;
   }
   #csharp{
-display: none;
+    width: 300px;
+    position: absolute;
+    top: 2600px;
+    left: 550px;
   }
   #swift{
-    width: 30%;
+    width: 300px;
     position: absolute;
-    top: 310%;
-    left: 55%;
+    top: 2900px;
+    left: 850px;
   }
   }
 
-  @media screen and (min-width: 670px) and (max-width: 859px) {
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     .py {
       display: flex;
       justify-content: center;
@@ -127,156 +133,133 @@ display: none;
     }
 
     #py {
-      width: 25%;
+      width: 250px;
       position: absolute;
-      top: 10%;
-      left: 65%;
+      top: 150px;
+      left: 500px;
     }
     #html {
-      width: 25%;
-      position: absolute;
-      top: 35%;
-      left: 65%;
+    width: 250px;
+    position: absolute;
+    top: 420px;
+    left: 500px;
     }
     #js {
-      width: 25%;
-      position: absolute;
-      top: 65%;
-      left: 65%;
+    width: 250px;
+    position: absolute;
+    top: 800px;
+    left: 500px;
     }
     #css {
-      width: 25%;
-      position: absolute;
-      top: 90%;
-      left: 65%;
+    width: 250px;
+    position: absolute;
+    top: 1100px;
+    left: 500px;
     }
     #cpp {
-      width: 25%;
+    width: 250px;
       position: absolute;
-      top: 120%;
-      left: 65%;
+      top: 1500px;
+    left: 500px;
     }
     #java {
-      width: 25%;
+    width: 250px;
       position: absolute;
-      top: 145%;
-      left: 65%;
+      top: 1800px;
+    left: 500px;
     }
     #kotlin {
-      width: 25%;
+    width: 250px;
       position: absolute;
-      top: 175%;
-      left: 65%;
+      top: 2200px;
+    left: 500px;
     }
     #csharp{
-      width: 25%;
+    width: 250px;
       position: absolute;
-      top: 195%;
-      left: 65%;
+      top: 2500px;
+    left: 500px;
     }
     #swift{
-      width: 25%;
+      width: 250px;
       position: absolute;
-      top: 220%;
-      left: 65%;
+      top: 2800px;
+    left: 500px;
     }
     }
-    @media screen and (max-width: 669px) {
-      .py {
-        display: flex;
-        justify-content: center;
-        height: 800px;
-      }
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .py {
+      display: flex;
+      justify-content: center;
+      height: 800px;
+    }
 
-      #py {
-        width: 20%;
-        position: absolute;
-        top: 10%;
-        left: 75%;
-      }
-      #html {
-        width: 20%;
-        position: absolute;
-        top: 30%;
-        left: 75%;
-      }
-      #js {
-        width: 20%;
-        position: absolute;
-        top: 55%;
-        left: 75%;
-      }
-      #css {
-        width: 20%;
-        position: absolute;
-        top: 75%;
-        left: 75%;
-      }
-      #cpp {
-        width: 20%;
-        position: absolute;
-        top: 100%;
-        left: 75%;
-      }
-      #java {
-        width: 20%;
-        position: absolute;
-        top: 120%;
-        left: 75%;
-      }
-      #kotlin {
-        width: 20%;
-        position: absolute;
-        top: 145%;
-        left: 75%;
-      }
-      #csharp{
-        width: 20%;
-        position: absolute;
-        top: 165%;
-        left: 75%;
-      }
-      #swift{
-        width: 20%;
-        position: absolute;
-        top: 185%;
-        left: 75%;
-      }
-      }
-
-
-      @media screen and (max-width: 480px) {
-        .py {
-          display: flex;
-          justify-content: center;
-          height: 800px;
-        }
-
-        #py {
-          display: none;
-        }
-        #html {
-          display: none;
-        }
-        #js {
-        display: none;
-        }
-        #css {
-        display: none;
-        }
-        #cpp {
-          display: none;
-        }
-        #java {
-          display: none;
-        }
-        #kotlin {
-          display: none;
-        }
-        #csharp{
-        display: none;
-        }
-        #swift{
-          display: none;
-        }
-        }
+    #py {
+      width: 250px;
+      position: absolute;
+      top: 150px;
+      left: 750px;
+    }
+    #html {
+    width: 250px;
+    position: absolute;
+    top: 420px;
+    left: 750px;
+    }
+    #js {
+    width: 250px;
+    position: absolute;
+    top: 800px;
+    left: 750px;
+    }
+    #css {
+    width: 250px;
+    position: absolute;
+    top: 1100px;
+    left: 750px;
+    }
+    #cpp {
+    width: 250px;
+      position: absolute;
+      top: 1500px;
+    left: 750px;
+    }
+    #java {
+    width: 250px;
+      position: absolute;
+      top: 1800px;
+    left: 750px;
+    }
+    #kotlin {
+    width: 250px;
+      position: absolute;
+      top: 2200px;
+      left: 750px;
+    }
+    #csharp{
+    width: 250px;
+      position: absolute;
+      top: 2500px;
+    left: 750px;
+    }
+    #swift{
+      width: 250px;
+      position: absolute;
+      top: 2800px;
+    left: 750px;
+    }
+    }
+  @media only screen and (max-device-width : 480px) and (orientation : portrait) {
+    .py {
+      display: none;
+      justify-content: center;
+      height: 800px;
+    }
+    }
+@media only screen and (max-device-width : 480px) and (orientation : landscape) {
+  .py {
+    display: none;
+    justify-content: center;
+    height: 800px;
+  }
+}
